@@ -4,8 +4,7 @@ import Home from '@/components/pages/Home.vue'
 </script>
 
 <template>
-  <Navbar />
-  <Home />
+  <RouterView> <Navbar /> <Home /></RouterView>
 </template>
 
 <style scoped></style>

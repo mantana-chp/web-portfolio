@@ -5,9 +5,11 @@
     <div class="flex justify-between">
       <div class="tracking-[0.3em] text-xl">MANTANA WEBFLIO</div>
       <div class="flex gap-5">
-        <button class="nav-button hover:text-red-400 active:text-red-400">
-          Home
-        </button>
+        <RouterLink :to="{ name: 'home' }">
+          <button class="nav-button hover:text-red-400 active:text-red-400">
+            Home
+          </button></RouterLink
+        >
         <button class="nav-button hover:text-purple-400 active:text-purple-400">
           About me
         </button>

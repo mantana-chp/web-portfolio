@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import MantanaImage from '/imgs/home-self-img.svg'
+</script>
 
 <template>
   <div
@@ -17,7 +19,9 @@
         </h1>
       </div>
       <!-- {/* My Profile Picture */} -->
-      <div className="col-end-7 col-span-2">pic here</div>
+      <div className="col-end-7 col-span-2">
+        <img :src="MantanaImage" alt="mantana-img" class="rounded-full size-96" />
+      </div>
     </div>
   </div>
 </template>
